@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.card {
+    width: 30rem;
+    border: 1px solid #c86a6a;
+    padding: 1.25rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px 0px -1px #c86a6a;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.card_title {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+}
+
+.card:hover{
+    box-shadow: none;
+    transform: translate(1px, 1px);
+}
+
+#error {
+    color: rgb(197, 34, 61);
+
+    margin-top: 1.25rem;
+
+    text-align: center;
+
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+#loading {
+    color: rgb(34, 197, 94);
+
+    margin-top: 1.25rem;
+
+    text-align: center;
+
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
